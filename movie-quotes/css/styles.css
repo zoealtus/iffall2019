@@ -1,0 +1,21 @@
+.title {
+	font-size: xx-large;
+	font-weight: bold;
+	color: #000080;
+}
+
+.name {
+	font-weight: bold;
+	color: #0000cd;
+}
+
+.scene {
+	font-weight: bolder;
+	font-size: x-large;
+	color: #000080;
+}
+
+body {
+	font-family: helvetica;
+	text-align: center;
+}
