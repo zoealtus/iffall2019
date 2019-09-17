@@ -1,0 +1,40 @@
+.song {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: xx-large;
+}
+.artist{
+	text-align: center;
+	font-family:
+	color:
+	font-size:
+}
+
+.chorus {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: small;
+}
+
+.verse {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: small;
+}
+
+body {
+	line-height: 2;
+	text-align: center;
+	color: white;
+	background: #990000;
+	font-size: medium;
+	font-family: Helvetica Neue;
+
+}
+
+footer {
+	text-align: center;
+	font-size: small;
+	color: ;
+}
