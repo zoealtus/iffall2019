@@ -1,0 +1,61 @@
+body {
+font-family: 'Merriweather', serif;
+font-size: 18px;
+}
+.cssproperty {
+	color:grey;
+}
+.heading {
+	font-weight: normal;
+}
+.style1 {
+	font-weight: normal;
+}
+.style2 {
+	font-weight: bold;
+}
+.style3 {
+	font-style: normal;
+}
+.style4 {
+	font-style: italic;
+}
+.style5 {
+	letter-spacing: normal;
+}
+.style6 {
+	letter-spacing: .3em;
+}
+.style7 {
+	letter-spacing: -.06em;
+}
+.style8 {
+	text-decoration: none;
+}
+.style9 {
+	text-decoration: underline;
+}
+.style10 {
+	text-decoration: line-through;
+}
+.style11 {
+	text-decoration: overline;
+}
+.style12 {
+	text-transform: none;
+}
+.style13 {
+	text-transform: uppercase;
+}
+.style14 {
+	text-transform: lowercase;
+}
+.style15 {
+	text-transform: capitalize;
+}
+
+
+
+
+
+
