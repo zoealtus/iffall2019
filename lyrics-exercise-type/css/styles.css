@@ -15,12 +15,15 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-size: small;
+	font-weight: bold;
 }
 
 .verse {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: small;
+	font-weight: bold;
+
 }
 
 body {
