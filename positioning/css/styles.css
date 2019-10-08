@@ -1,0 +1,32 @@
+.callout1 {
+	float:right;
+}
+
+.callout2 {
+	position: relative;
+	top: 301px;
+	left: 639px;
+}
+
+.callout3 {
+	position: fixed;
+	background-color: green;
+	top: 0;
+	right: 0;
+}
+
+.callout4 {
+	background-color: red;
+	position:relative;
+	top: 480px;
+	left: 310px;
+	z-index: 10;
+}
+
+.callout5 {
+	background-color: black;
+	position:relative;
+	top: 280px;
+	left: 320px;
+	z-index: 5;
+}
