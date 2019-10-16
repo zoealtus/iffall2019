@@ -1,0 +1,55 @@
+a#btn_apple img {
+	width:auto;
+	height: 300px;
+	margin: auto;
+	position: relative;
+	top: -20px;
+	left: -75px;
+}
+
+a#btn_apple img:hover {
+	transform: scale(.9);
+}
+
+#btn_IBM {
+	margin: auto;
+	display: inline-block;
+}
+
+a#btn_IBM img {
+	width:auto;
+	height: 300px;
+	position: relative;
+	top: -15px;
+	left: -25px;
+}
+
+
+a#btn_IBM img.hover {
+	display: none;
+}
+
+a#btn_IBM:hover img.hover  {
+	display: inline-block;
+}
+
+a#btn_IBM:hover img.default{
+	display: none;
+}
+
+a#btn_ideo img {
+	position: relative;
+	top: 25px;
+}
+
+#btn_ideo {
+	background-color: #fcf114;
+}
+
+/* grey
+#262c2f
+
+ideo yellow
+#fcf114 */
+
+
