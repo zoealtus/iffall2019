@@ -1,0 +1,167 @@
+ /* this is for the first (portrait) background image */
+
+ /*@media (max-width: 640 px) {
+	body {
+		background-image: url(../images/mrWonka.jpg);
+}
+*/
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	font-family: buena-park-jf, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+/*CARD 1 */
+/*.quote1: before {
+	content:"“";
+	position: absolute;
+	top: 0;
+	left: -10px;
+} */
+
+
+#card1 {
+	background-image: url(../images/mrWonka.jpg);
+	background-size: cover; /* only scaling big enough to cover vertically */
+	background-position: center top; /* tells you which side of the image is pinned, 
+	or you can use percentage; left and right first, then up and down*/
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#quote1:before {
+	content:"“";
+	position: absolute;
+	top: 0;
+	left: -10px;
+}
+
+#quote1 {
+	position: absolute;
+	top: center;
+	left: 10%;
+	right: 10%;
+	color: purple;
+	font-size: 18pt;
+}
+
+#book1 { /* who said it */
+	position: absolute;
+	top: center;
+	left: 10%;
+	right: 10%;
+	color: purple;
+	font-size: 18pt;
+	text-align: right;
+}
+
+/*min-width 950px
+min-width 1140px */
+
+
+/*CARD 2*/
+
+#card2 {
+	background-image: url(../images/BFG.jpg);
+	background-size: cover; /* only scaling big enough to cover vertically */
+	background-position: center top; /* tells you which side of the image is pinned, 
+	or you can use percentage; left and right first, then up and down*/
+	background-repeat: no-repeat;
+	margin: 0; 
+}
+
+#quote2:before {
+	content:"“";
+	position: absolute;
+	top: 0;
+	left: -10px;
+}
+
+#quote2 {
+	position: absolute;
+	top: center;
+	left: 10%;
+	right: 10%;
+	color: pink;
+	font-size: 18pt;
+}
+
+#book2 { /* who said it */
+	position: absolute;
+	top: 13%;
+	/*left: 10%; */
+	right: 82%;
+	color: pink;
+	font-size: 14pt;
+	text-align: right;
+}
+
+
+
+
+
+/*CARD 3*/
+
+#card3 {
+	background-image: url(../images/GeorgesMarvelousMedicine.jpg);
+	background-size: cover; /* only scaling big enough to cover vertically */
+	background-position: center top; /* tells you which side of the image is pinned, 
+	or you can use percentage; left and right first, then up and down*/
+	background-repeat: no-repeat;
+	margin: 0; 
+}
+
+#quote3:before {
+	content:"“";
+	position: absolute;
+	top: 0;
+	left: -10px;
+}
+
+#quote3 {
+	position: absolute;
+	top: center;
+	left: 10%;
+	right: 10%;
+	color: lightblue;
+	font-size: 18pt;
+}
+#book3 { /* who said it */
+	position: absolute;
+	top: center;
+	left: 10%;
+	right: 10%;
+	color: lightblue;
+	font-size: 14pt;
+	text-align: right;
+}
+
+
+/* big shift in behavior: left top, then right top uses media query */
+
+@media (min-width: 640 px) {
+	body {
+		background-position: right top;
+}
+
+@media (min-width: 820 px) {
+	.quote1, .quote2, .quote3 {
+		width: 60%;
+		right: 0;
+
+}
+
+/* use absolute position for text, separate containers for quotes and attributions with 
