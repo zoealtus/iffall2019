@@ -1,0 +1,103 @@
+/*font-family: bookmania,serif;
+font-weight: 900;
+font-style: normal;
+
+font-family: bookmania,serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: bookmania,serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: bookmania,serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: bookmania,serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+body {
+	background-color: #ededed;
+	margin: 0;
+	font-family: bookmania,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12pt;
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+	margin: 20px 0px 0px 20px;
+	padding-bottom: 0px;
+}
+
+h3 {
+	margin: 0px 0px 10px 20px;
+	text-transform: uppercase;
+	font-size: 12pt;
+}
+
+p {
+	margin-top: 0px;
+ }
+/*.output {
+	padding: auto;
+} */
+
+h4 {
+	margin-bottom: 0px;
+}
+
+h5 {
+	margin-bottom: 0px;
+}
+
+section {
+	margin: 0px 20px 0px 20px;
+}
+
+.bold {
+	font-family: bookmania,serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12pt;
+}
+
+.italic {
+	font-family: bookmania,serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 12pt;
+}
+/* footer */
+footer {
+	margin-left: 20px;
+	font-family: bookmania,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 9pt;
+	line-height: 12pt;
+
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: red;
+}
